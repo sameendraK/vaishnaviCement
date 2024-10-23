@@ -1,0 +1,24 @@
+<ng-container *ngFor="let card of cardDetails">
+    <div class="usp-card-wrapper-container">
+        <div class="usp-card-container">
+            <div class="image-container">
+                <img [src]=card.img>
+            </div>
+            <div class="heading-container">
+                <h1>
+                    {{card.heading}}
+                </h1>
+            </div>
+            <div class="description-container">
+                <p>{{card.description}}</p>
+            </div>
+            <div class="link-wrapper-container">
+                <div class="link-styling-container">
+                    <div class="link-container">
+                        <button class="arrow" type="button"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-container>

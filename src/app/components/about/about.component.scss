@@ -1,0 +1,299 @@
+.about-us-page-wrapper-container {
+    .about-us-page-container {
+
+        .about-us-first-section-wrapper-container {
+            position: relative;
+
+            // background-image: url(../../../assets/about_us_page_image.png);
+            .about-us-page-heading-container {
+                position: absolute;
+                width: 100%;
+                text-align: center;
+                color: white;
+            }
+
+            .about-us-first-section-container {
+                // position: relative;
+                z-index: -1;
+
+                .about-us-page-heading-container>h1 {
+                    // padding: 8rem;
+                    // color: white;
+                }
+            }
+        }
+
+        .about-us-second-section-wrapper-container {
+            background-color: #BF965E33;
+
+            .about-us-second-section-container {
+                gap: 3rem;
+                justify-content: space-between;
+
+                .vaishnavi-logo-and-additional-container {
+                    margin: 2rem;
+                    max-width: 100%;
+                    grid-area: 2 / 1 / 4 / 2;
+                    background: #323A5F;
+                    // position: relative;
+                    left: 35px;
+                    bottom: 15px;
+                    box-shadow: 28px -21px 3px white;
+
+                    .vaishnavi-logo-cotainer>img {
+                        max-width: 100%;
+                    }
+
+                    // margin-left: 45px;
+                }
+
+                .additional-container {
+                    grid-area: 2 / 1 / 4 / 2;
+                    background: white;
+                    // position: relative;
+                    // margin-left: 45px;
+                    left: 60px;
+                    bottom: 35px;
+                }
+            }
+
+            .why-us-wrapper-container {
+                // grid-area: 1 / 2 / 3 / 5;
+                padding: 1.5rem;
+
+                .why-us-button-container {
+                    grid-area: 3 / 2 / 4 / 3;
+                    align-content: end;
+                    ;
+                }
+
+                .why-us-button-container>button {
+                    height: 3rem;
+                    background: #BF965E;
+                    width: 10rem;
+                    border: none;
+                    color: white;
+                }
+            }
+
+        }
+
+        .about-us-fourth-section-wrapper-container {
+            background-image: url(../../../assets/our_contempt.png);
+            background-size: 100% 100%;
+            height: 100%;
+
+            .about-us-fourth-section-container {
+                gap: 3rem;
+
+                .about-us-fourth-section-left-wrapper-container {
+                    .about-us-fourth-section-left-container {
+                        .images-container {
+                            display: grid;
+                            grid-template-columns: repeat(4, 1fr);
+                            grid-template-rows: repeat(4, 1fr);
+
+                            .big-image-container {
+                                grid-area: 1/1/4/6;
+                            }
+
+                            .big-image-container>img {
+                                width: 100%;
+                            }
+
+                            .two-in-one-container {
+                                grid-area: 1/2/3/5;
+
+                                .medium-size-container-one {
+                                    grid-area: 3 / 4 / 3 / 4;
+                                    border-radius: 20px;
+                                    transform: rotate(45deg);
+                                    background: linear-gradient(rgba(191, 150, 94, 0.8705882353), rgba(191, 150, 94, 0));
+                                    height: 47%;
+                                    width: 32%;
+                                    position: relative;
+                                    left: 51%;
+                                    top: 85%;
+                                }
+
+                                .small-size-container {
+                                    height: 55%;
+                                    transform: rotate(45deg);
+                                    width: 46%;
+                                    position: relative;
+                                    top: 78%;
+                                    left: 22%;
+                                    background-image: url(../../../assets/china_hut.png);
+                                    border-radius: 20px;
+                                    background-size: 100% 100%;
+
+                                }
+
+                            }
+
+                            .medium-size-container-two {
+                                height: 65%;
+                                width: 55%;
+                                grid-area: 4 / 3 / 2 / 1;
+                                background: gainsboro;
+                                background: linear-gradient(rgba(191, 150, 94, 0.8705882353), rgba(191, 150, 94, 0));
+                                border-radius: 20px;
+                                position: relative;
+                                top: 72%;
+                                right: 16%;
+                                transform: rotate(45deg);
+                            }
+
+                            .big-image-container>img {
+                                width: 70%;
+                            }
+                        }
+                    }
+
+                    height: 40%;
+                }
+
+                .about-us-fourth-section-right-wrapper-container {}
+
+            }
+        }
+
+        .about-us-fifth-section-wrapper-container {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+
+            .about-us-fifth-section-container {
+                .founder-image-and-description-wrapper-container {
+                    .founder-description-container {
+                        background: #FFFBF6;
+                        padding-inline: 10%;
+                        border-radius: 0 50% 0 0;
+
+                        .our-leaders-text-container>h6 {
+                            color: #BF965E;
+                        }
+
+                        .founder-text-container {}
+
+                        .founder-description-container {}
+
+                        .designated-partner-text-container {}
+                    }
+
+                    .founder-image-container {
+                        .background-div-container {}
+
+                        .image-container>img {
+                            width: 100%;
+                        }
+                    }
+
+                    .founder-image-container>img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .about-us-page-wrapper-container {
+        .about-us-page-container {
+            .about-us-second-section-wrapper-container {
+                .about-us-second-section-container {
+                    gap: 0rem;
+                    flex-wrap: wrap;
+                    padding-top: 0;
+
+                    .vaishnavi-logo-and-additional-container {
+                        margin: 0;
+                    }
+                }
+
+                .why-us-wrapper-container {
+                    text-align: center;
+
+                    .why-us-button-container>button {}
+                }
+            }
+
+            .about-us-fourth-section-wrapper-container {
+
+                .about-us-fourth-section-container {
+                    flex-wrap: wrap;
+
+                    .about-us-fourth-section-left-wrapper-container {
+                        .about-us-fourth-section-left-container {
+                            .images-container {
+                                .big-image-container {}
+
+                                .two-in-one-container {
+                                    .medium-size-container-one {
+                                        .small-size-container {}
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .about-us-fourth-section-right-wrapper-container {
+                        .our-contempt-container {
+                            text-align: center;
+                        }
+
+                        .vision-and-mission-container {
+                            text-align: center;
+                        }
+
+                        .vision-heading-and-description-container {
+                            text-align: center;
+                        }
+
+                        .mission-heading-and-description-container {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            .about-us-fifth-section-wrapper-container {
+
+                .about-us-fifth-section-container {
+                    flex-wrap: wrap;
+
+                    .founder-image-and-description-wrapper-container {
+                        flex-wrap: wrap-reverse;
+
+                        .founder-description-container {
+                            text-align: center;
+
+                            .our-leaders-text-container>h6 {
+                                color: #BF965E;
+                            }
+
+                            .founder-text-container {
+                                text-align: center;
+                            }
+
+                            .founder-description-container {
+                                text-align: center;
+                            }
+
+                            .designated-partner-text-container {
+                                text-align: center;
+                            }
+                        }
+
+                        .founder-image-container>img {
+                            display: block;
+                            margin-left: auto;
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

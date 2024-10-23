@@ -1,0 +1,12 @@
+.mixers-dynamic-component-wrapper-container {
+    .mixers-dynamic-component-container {
+        .image-container>img {
+            max-width: 100%;
+        }
+
+        .content-wrapper-container {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

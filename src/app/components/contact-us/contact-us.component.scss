@@ -1,0 +1,150 @@
+.contact-us-wrapper-container {
+    .contact-us-container {
+
+        .contact-us-heading-container {
+            background-image: url(../../../assets/media_bg.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        .contact-us-heading-container>h1 {
+            padding: 8rem;
+            color: white;
+            font-weight: 400;
+        }
+
+        .contact-us-form-wrapper-container {
+            gap: 1rem;
+            padding: 5%;
+            padding-bottom: 1%;
+
+            .contact-us-form-container {
+                background: #363E63;
+                width: 100%;
+
+                .contact-us-form {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+
+                    .get-in-touch-container {
+                        color: white;
+                    }
+
+                    .form-and-message-container {
+                        color: white;
+                    }
+
+                    .name-container {}
+
+                    .email-container {}
+
+                    .phone-container {}
+
+                    .message-container {}
+
+                    .send-message-button-container {
+                        margin: 1rem;
+
+                    }
+
+                    .send-message-button-container>button {
+                        background-color: #3F8BFC;
+                        color: white;
+                        border: none;
+                        height: 2rem;
+                    }
+                }
+            }
+
+            .location-container {
+                display: block;
+                min-height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .lets-talk-with-us-container {
+            display: flex;
+            justify-content: end;
+            text-align: center;
+            // flex-direction: column;
+            // margin-right: 8%;
+
+            .lets-talk-with-us {
+                width: 50%;
+            }
+        }
+    }
+}
+
+img {
+    object-fit: cover;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+label {
+    text-align: left;
+}
+
+input {
+    height: 2.5rem;
+    padding-left: 1rem;
+}
+
+.styling-for-input-fields {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 20%;
+    // height: 2.5rem;
+    color: white;
+}
+
+textarea {
+    height: 6rem;
+}
+
+@media only screen and (max-width:768px) {
+    .contact-us-wrapper-container {
+        .contact-us-container {
+
+            .contact-us-heading-container {}
+
+            .contact-us-heading-container>h1 {}
+
+            .contact-us-form-wrapper-container {
+                flex-wrap: wrap;
+
+                .contact-us-form-container {
+                    border-radius: 4rem;
+
+                    .contact-us-form {
+                        gap: 1rem;
+                        padding: 1rem;
+
+                        .get-in-touch-container {
+                            border-radius: 1rem;
+                        }
+
+                        .form-and-message-container {}
+
+                        .send-message-button-container>button {
+                            border-radius: 1rem;
+                        }
+                    }
+                }
+            }
+
+            .lets-talk-with-us-container {
+                text-align: center;
+                margin-right: 0;
+
+                .lets-talk-with-us {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

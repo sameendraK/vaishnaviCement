@@ -1,0 +1,88 @@
+<div class="footer-wrapper-container height-100">
+    <form [formGroup]="formGroup">
+        <div class="footer-container height-100">
+            <div class="first-container">
+                <div class="footer-image-container-bg">
+                    <div class="first-part-top text-align-center">
+                        <img class="max-width-100" src="../../../assets/vaishnavi_white_image.png">
+                    </div>
+                    <div class="first-part-middle">
+                        <p>Clients can specify their preferred method of communication, to be precise - in person or via
+                            telephone / email. individual.</p>
+                    </div>
+                    <div class="first-part-bottom">
+                        <img src="../../../assets/socials.png">
+                    </div>
+                </div>
+            </div>
+            <div class="second-container flex-wrap">
+                <div class="second-container-first-part algin-content-center">
+                    <div class="sc-fp-top">
+                        <h5>Get in touch</h5>
+                    </div>
+                    <div class="sc-fp-bottom">
+                        <p>Plot No. #12-1-520,First Floor & Second Floor
+                        </p>
+                        <p>GSI Road,Bandlaguda, Nagole</p>
+                        <p>Hyderabad - 500068</p>
+                    </div>
+                </div>
+                <div class="second-container-second-part algin-content-center">
+                    <ul>
+                        <li *ngFor="let item of footerNavItems" (click)="footerNavItemClickHandler(item)">
+                            {{item.name}}
+                        </li>
+                    </ul>
+                </div>
+                <div class="second-container-third-part algin-content-center">
+                    <div class="sc-tp-company-info">
+                        <h6>Company Info</h6>
+                    </div>
+                    <div class="phone-container">
+                        <div class="phone-logo">
+
+                        </div>
+                        <div class="phone-number">
+                            <p><b>+91 9898989855</b></p>
+                        </div>
+                    </div>
+                    <div class="email-container">
+                        <div class="email-logo">
+
+                        </div>
+                        <div class="email-number">
+                            <p>{{vaishnaviEmail}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-container-fourth-part">
+                    <!-- <div class="enquire-now-text-container">
+                </div> -->
+                    <div class="enquire-now-heading-container">
+                        <h3 class="fw-400">Enquire Now</h3>
+                    </div>
+                    <div class="name-container">
+                        <input type="text" placeholder="Name" formControlName="name">
+                    </div>
+                    <div class="phone-container">
+                        <input type="text" placeholder="Phone" formControlName="phone">
+                    </div>
+                    <div class="email-container">
+                        <input type="text" placeholder="Email" formControlName="email">
+                    </div>
+                    <div class="message-container">
+                        <textarea type="text" placeholder="message" formControlName="message"></textarea>
+                    </div>
+                    <div class="button-container text-align-center">
+                        <button type="button" (click)="submitButtonClickHandler()">Submit Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="third-container">
+                <div class="copy-rights-container">
+                    <p>2024 - Vaishnavi RMC. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

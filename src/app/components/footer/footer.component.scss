@@ -1,0 +1,136 @@
+.footer-wrapper-container {
+    background-image: url(../../../assets/skyscarpper.png);
+    background-size: 100% 100%;
+
+    .footer-container {
+        background: linear-gradient(transparent, #243355);
+
+        // background-color: transparent;
+        .first-container {
+            .footer-image-container-bg {
+
+                .first-part-top {}
+
+                .first-part-top>img {}
+
+                .first-part-middle {
+                    // height: 5rem;
+                    text-align: center;
+                    padding-inline: 30%;
+                }
+
+                .first-part-bottom {
+                    text-align: center;
+                }
+            }
+        }
+
+        .second-container {
+            display: flex;
+            justify-content: space-around;
+            // flex-wrap: wrap;
+
+            .second-container-first-part {
+
+                .sc-fp-top {}
+
+                .sc-fp-bottom {}
+            }
+
+            .second-container-second-part {
+                ul {
+                    list-style: none;
+                }
+            }
+
+            .second-container-third-part {
+                .sc-tp-company-info {}
+
+                .phone-container {
+                    .phone-logo {}
+
+                    .phone-number {}
+                }
+
+                .email-container {
+                    .email-logo {}
+
+                    .email-number {}
+                }
+            }
+
+            .second-container-fourth-part {
+                .enquire-now-heading-container {}
+
+                .name-container>input {
+                    height: 25px;
+                    margin: 5px;
+                    margin-left: 0;
+                }
+
+                .phone-container>input {
+                    height: 25px;
+                    margin: 10px;
+                    margin-left: 0;
+                }
+
+                .email-container>input {
+                    height: 25px;
+                    margin: 10px;
+                    margin-left: 0;
+                }
+
+                .button-container>button {
+                    height: 2.5rem;
+                    width: 9rem;
+                    margin: 10px;
+                    margin-left: 0;
+                    background-color: #BF965E;
+                    color: white;
+                    border: none;
+                }
+            }
+        }
+    }
+
+    .third-container {
+        .copy-rights-container {
+            text-align: center;
+        }
+
+        .copy-rights-container>p {
+            margin: 0;
+        }
+    }
+}
+
+h1,p,li,ul,h2,h3,h4,h5,h6 {
+    color: white;
+}
+
+input,
+textarea {
+    color: black;
+}
+
+button {
+    color: black;
+}
+
+.algin-content-center {
+    align-content: center;
+}
+
+@media only screen and (max-width:768px) {
+    .footer-wrapper-container {
+        .footer-container {
+            .first-container {
+                .footer-image-container-bg {
+                    .first-part-middle {
+                        padding-inline: 0%;
+                    }
+                }
+            }
+        }
+    }
+}

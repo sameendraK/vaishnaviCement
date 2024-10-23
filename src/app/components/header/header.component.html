@@ -1,0 +1,30 @@
+<div class="header-component-wrapper-container">
+    <div class="header-component-container display-flex-jc-sb">
+        <div class="image-container">
+            <img class="max-width-100" src="../../../assets/vaishnavi_logo.png" />
+        </div>
+        <div class="buttons-container">
+            <div class="item-container" *ngFor="let item of headerNavItems; index as i"
+                [ngClass]="{'active':item.route===currentActiveItem}">
+                <ng-container *ngIf="item.type.toUpperCase()==='NAV'">
+                    <button class="poppins-regular nav-item" (click)="headerNav(item)">
+                        {{item.title}}
+                    </button>
+                </ng-container>
+                <ng-container *ngIf="item.type.toUpperCase()==='BUTTON'">
+                    <button type="button" class="download-button-container">
+                        {{item.title}}
+                    </button>
+                </ng-container>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <ng-template #buttonsTemplate>
+<div class="button-container">
+    <button type = "button">
+        btn
+    </button>
+</div>
+</ng-template> -->

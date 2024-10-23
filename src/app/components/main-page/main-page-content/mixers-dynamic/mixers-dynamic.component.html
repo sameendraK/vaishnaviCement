@@ -1,0 +1,22 @@
+<div class="mixers-dynamic-component-wrapper-container">
+    <div class="mixers-dynamic-component-container display-flex">
+        <ng-container *ngFor="let detail of mixerDetails">
+            <div class="content-wrapper-container">
+                <div class="image-container">
+                    <img [src]="detail.path">
+                </div>
+                <div class="heading-container">
+                    <h3>{{detail.heading}}</h3>
+                </div>
+                <div class="description-container">
+                    <div class="description-row-1">
+                        <p><span class="bold"> Mix ratio: </span>{{detail.mixRatioDescription}}</p>
+                    </div>
+                    <div class="description-row-2">
+                        <p><span class="bold"> Sustainability: </span>{{detail.sustainabilityDescription}}</p>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>

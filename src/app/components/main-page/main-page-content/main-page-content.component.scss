@@ -1,0 +1,748 @@
+.main-page-content-component-wrapper-container {
+    // height: 100%;
+
+    .main-page-content-component-container {
+        // height: 100%;
+
+        .image-container {
+            background-image: url('../../../../assets/vaishnavi_first_img_machinery.png');
+            // height: 100%;
+            background-size: 100% 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .img-m-container>img {
+                max-width: 100%;
+                // max-height: 100%;
+            }
+
+            .content-container {
+                // height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                color: white;
+                margin-inline: 76px;
+                width: 53%;
+
+                .heading-container {
+                    .speciality-heading {
+                        font-size: 51px;
+                        font-weight: 200;
+                    }
+                }
+
+            }
+
+            .enquire-now-button-container {
+                .button-container {
+                    min-width: 100%;
+                    min-height: 100%;
+                    display: inline-block;
+
+                    // min-height: 100%;
+                    align-content: center;
+
+                    .button-original-container {
+                        align-content: center;
+                        /* min-width: 15%; */
+                        transform: rotate(90deg);
+                        background: #FDA303;
+                        /* margin-bottom: 32%; */
+                        /* text-align: center; */
+                        // position: relative;
+                        // left: 2.1rem;
+                        // height: 2.8rem;
+                        // width: 7rem;
+                        text-align: center;
+                    }
+
+                    .button-original-container>button {
+                        background: transparent;
+                        border: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .about-us-wrapper-container {
+            background-image: url(../../../../assets/about_us_background_image.png);
+            // height: 100%;
+            background-size: 100% 100%;
+
+            .about-us-container {
+                height: 83%;
+                width: 40%;
+                padding-inline: 65px;
+                margin-top: 100px;
+
+                .about-us-heading-container {}
+
+                .why-choose-us-wrapper-container {
+                    .why-choose-us-container {}
+
+                    .why-choose-us-description-container {}
+
+                    .numbers-wrapper-container {
+                        .numbers-container {
+                            display: flex;
+                            gap: 50px;
+                        }
+                    }
+                }
+            }
+
+            .about-us-images-wrapper-container {
+                position: relative;
+                background: #323A5F;
+                min-height: 30rem;
+                width: 44%;
+
+                .about-us-images-container>img {
+                    max-width: 100%;
+                }
+
+                .about-us-images-container {
+
+                    position: absolute;
+                    right: 1px;
+                    top: 70px;
+                    // background-image: url(../../../../assets/why_choose_us.png);
+                    height: 75%;
+                    width: 127%;
+                    background-size: 100% 100%;
+
+                    .images-container {
+                        visibility: hidden;
+                    }
+                }
+
+                .carousel-images-container {
+                    visibility: hidden;
+                }
+            }
+        }
+
+        .worker-video-playback-image-container {
+            background-image: url(../../../../assets/worker_video_play_image.png);
+            background-size: 100% 100%;
+            // height: 100%;
+            background-repeat: no-repeat;
+
+            .worker-image-container {}
+        }
+
+        .pride-of-vaishnavi-wrapper-container {
+            display: flex;
+            gap: 19px;
+            width: 100%;
+
+            .pride-of-vaishnavi-container {
+                width: 50%;
+
+                h1 {
+                    font-weight: 400;
+                    text-align: center;
+                }
+
+                .pride-of-vaishnavi {
+                    // font-size: 39px;
+                    font-weight: 400;
+                }
+
+                .bricks-container {
+                    display: flex;
+                    gap: 10px;
+                    margin-left: 55px;
+
+                    .bricks-button-container>button {
+                        height: 2rem;
+                        // width: 137px;
+                        background: black;
+                        color: white;
+                        border-radius: 114px;
+                    }
+
+                    .cement-bricks-button-container>button {
+                        height: 2.5rem;
+                        // width: 137px;
+                        background: white;
+                        color: black;
+                        border-radius: 114px;
+                        border: solid 1px #312D2BA6;
+                    }
+                }
+            }
+
+            .pride-of-vaishnavi-description-container {
+                width: 50%;
+            }
+        }
+
+        .bricks-buttons-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+
+            .bricks-button-container>button {
+                padding: 1.2rem 2rem 1rem 2rem;
+                background: #FBA400;
+                color: white;
+                border-radius: 10px;
+                border: transparent;
+            }
+
+            .mrk-bricks-container>button {
+                padding: 1.2rem 2rem 1rem 2rem;
+                background: white;
+                color: black;
+                border: solid 1px;
+                border-radius: 10px;
+            }
+        }
+
+        .bricks-images-container {
+            // height: 100%;
+            gap: 10px;
+            display: flex;
+            padding-inline: 70px;
+
+            .vaishanvi-bricks-image-wrapepr-container {
+                width: 50%;
+                // background-image: url(../../../../assets/cement-bricks.png);
+                background-size: 100% 100%;
+                height: 70%;
+                background-repeat: no-repeat;
+
+                .vaishnavi-bricks-image-container {}
+            }
+
+            .mrk-bricks-image-wrapper-container {
+                width: 50%;
+                // background-image: url(../../../../assets/MRK-bricks.png);
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                height: 70%;
+
+                .mrk-brick-image-container {}
+            }
+        }
+
+        .what-is-rmc-image-and-content-wrapper-container {
+            background: url(../../../../assets/what-is-rmc-background.png);
+            display: flex;
+            height: 82%;
+
+            .what-is-rmc-image-container {
+                background-image: url(../../../../assets/vaishnavi_first_img_machinery.png);
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                // height: 100%;
+                width: 40%;
+            }
+
+            .what-is-rmc-content-container {
+                width: 60%;
+                padding-inline: 4%;
+
+                .what-is-rmc-heading-container {
+                    color: #FFFAF4;
+                    font-family: "Jost", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+
+                .what-is-rmc-description-container {
+                    color: white;
+                }
+
+                .what-is-rmc-bullet-points-container {
+                    .first-two-points {
+
+                        .first-point-container {
+                            .text-container {
+                                color: white;
+                            }
+                        }
+
+                        .second-point-container {
+                            .text-container {
+                                color: white;
+                            }
+                        }
+                    }
+
+                    .last-two-points-container {
+
+                        .third-point-container {
+                            .text-container {
+                                color: white;
+                            }
+                        }
+
+                        .fourth-point-container {
+                            .text-container {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+
+                .other-ranges-container {
+                    .other-ranges-heading-container {}
+
+                    .other-ranges-description-container {
+                        .items-container {
+                            color: #FFFF00;
+                        }
+                    }
+                }
+            }
+        }
+
+        .our-vehicles-wrapper-container {
+            background-image: url(../../../../assets/vaishnavi_trucks_bg_image.png);
+            background-repeat: no-repeat;
+            background-position: center;
+
+            .our-vehicles-container {
+                .our-vehicles-heading-container {
+                    text-align: center;
+
+                    // font-size: 20px;
+                    h1 {
+                        font-weight: 400;
+                    }
+                }
+
+                .our-vehicles-images {
+                    .our-vehicles-image-container {}
+                }
+            }
+        }
+
+        .professional-details-with-numberes-wrapper-container {
+            .professional-details-with-numberes-container {
+                .years-in-industry-container {
+                    .years-number-container {}
+
+                    .years-text-container {}
+                }
+
+                .projects-completed-in-industry-container {
+                    .projects-completed-number-container {}
+
+                    .projects-completed-text-container {}
+                }
+
+                .residents-container {
+                    .residents-number-container {}
+
+                    .residents-text-container {}
+                }
+
+                .concrete-completed-container {
+                    .concrete-completed-number-container {}
+
+                    .concrete-completed-text-container {}
+                }
+            }
+        }
+
+        .running-towards-sustainability-wrapper-container {
+
+
+            .running-towards-sustainability-container {
+                max-width: 100%;
+                flex-wrap: nowrap;
+
+                .running-towards-sustainability-image-container {
+                    min-width: 25%;
+                }
+
+                .running-towards-sustainability-image-container>img {
+                    // height: 400px;
+                    display: block;
+                    max-width: 100%;
+                }
+            }
+
+            .running-towards-sustainability-description-wrapper-container {
+
+                min-width: 75%;
+                display: flex;
+                align-items: end;
+
+                .running-towards-sustainability-description-container {
+                    min-width: 100%;
+                    max-width: 100%;
+                }
+
+                .running-towards-sustainability-heading-container {
+                    max-width: 100%;
+                }
+
+                .running-towards-sustainability-heading-container>h1 {
+                    font-size: 40px;
+                }
+
+                .running-towards-sustainability-content-container {
+                    max-width: 100%;
+                }
+
+                .running-towards-sustainability-logos-container {
+                    background: #FBA400;
+                    max-width: 100%;
+                    min-height: 100%;
+                    flex-wrap: wrap;
+
+                    .running-towards-sustanability-image {
+                        min-height: 80%;
+                    }
+                }
+            }
+        }
+
+        .our-main-usps-wrapper-container {
+            .our-main-usps-container {
+                background: #FFE790;
+                margin: 3rem;
+                border-radius: 4rem;
+                // height: 100%;
+
+                .our-main-usps-top-row {
+                    padding: 30px;
+                    gap: 50%;
+
+                    .main-usp-heading-container>h1 {
+                        font-weight: 400;
+                        // font-size: 50px;
+                    }
+
+                    .explore-all-button-contianer>button {
+                        padding: 1.2rem 10rem 1rem 10rem;
+                        border-radius: 3rem;
+                        background-color: transparent;
+                    }
+                }
+
+                .our-main-usps-cards-container {
+                    // height: 100%;
+                    // padding: 0 4% 1% 4%;
+                    max-width: 100%;
+                }
+            }
+        }
+
+    }
+
+    .mixers-types-wrapper-container {
+        .mixers-type-container {
+            .mixers-list-left-nav-wrapper-container {
+                // width: 20%;
+
+                .mixers-list-left-nav-container {}
+            }
+
+            .mixers-right-side-details-wrapper-container {
+                // width: 80%;
+
+                .mixers-right-side-details-container {}
+            }
+        }
+    }
+
+    .testimonals-wrapper-container {
+        background-image: url(../../../../assets/vaishnavi_trucks_bg_image.png);
+        background-repeat: no-repeat;
+        // height: 100%;
+        background-position: top;
+        background-size: 30%;
+        position: relative;
+
+        .testimonals-left-container {
+            padding-inline: 3%;
+
+            .testimonals-heading {}
+
+            .testimonals-text {
+                // width: 34%;
+            }
+        }
+
+        .testimonals-container-two {
+            // background-color: rgb(255, 244, 224);
+
+            .container-two-part-one {
+                padding-left: 3rem;
+            }
+
+            .container-two-part-two {
+
+                .image-and-text-container {
+                    align-items: end;
+                    margin-left: 4%;
+
+                    .image-container-b {
+                        position: relative;
+                        width: 40rem;
+                    }
+
+                    .image-container-b>img {
+                        max-width: 100%;
+                        display: block;
+                    }
+
+                    .text-container {
+                        padding-left: 3%;
+                        background: #243355;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        // .testimonals-container {
+        //     .top-wrapper-container {
+        //         height: 20%;
+
+        //         .top-container {
+        //             .testimonal-heading-container {}
+
+        //             .testimonal-glimpse-headig-container {}
+        //         }
+        //     }
+
+        //     .bottom-wrapper-container {
+        //         height: calc(100% - 67%);
+        //         display: flex;
+        //         padding-left: 5%;
+        //         align-items: flex-end;
+
+        //         .dummy-for-styling-container {
+        //             background: #243355;
+        //             height: 61%;
+        //         }
+
+        //         .dummy-for-styling-container>p {
+        //             visibility: hidden;
+        //         }
+
+        //         .testimonals-image-container {
+        //             background: #243355;
+        //             height: 86%;
+        //             align-content: end;
+        //         }
+
+        //         .bottom-text-container {
+        //             align-content: end;
+        //             // background: #243355;
+        //             // height: 60%;
+        //             // padding-inline: 3%;
+        //             display: flex;
+        //             flex-direction: column;
+        //             gap: 30px;
+
+        //             .bottom-middle-mix-container {
+        //                 height: 50%;
+        //                 /* background: wheat; */
+        //                 padding-inline: 20%;
+        //             }
+
+        //             .bottom-text-p {
+        //                 background: #243355;
+        //             }
+        //         }
+
+        //         .bottom-text-container>p {
+        //             color: white;
+        //         }
+        //     }
+        // }
+
+
+    }
+
+    .ready-to-work-with-us-wrapper-container {
+        // background: #243355;
+        // clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        // height: 100%;
+        width: 100%;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+
+        .button-container {
+            min-height: 10%;
+            /* min-width: 15%; */
+            transform: rotate(90deg);
+            background: #FDA303;
+            /* margin-bottom: 32%; */
+            /* text-align: center; */
+            position: relative;
+            left: 1.6rem;
+
+            .button-original-container>button {
+                background: transparent;
+                border: none;
+                color: white;
+            }
+        }
+
+        .ready-to-work-heading-and-text-container {
+            grid-area: 2 / 1 / 4 / 5;
+            background: #243355;
+            clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+
+            .ready-to-work-heading-container {
+                grid-area: 2 / 2 / 4 / 3;
+                color: white;
+            }
+
+            .ready-to-work-text-container {
+                grid-area: 3 / 2 / 4 / 4;
+                color: white;
+            }
+
+            // .ready-image-container>img {
+            //     width: 100%;
+            // }
+        }
+
+        .ready-image-contaienr {
+            grid-area: 3 / 4 / 1 / 3;
+            z-index: 1;
+            align-content: center;
+        }
+
+        .ready-image-contaienr>img {
+            width: 100%;
+        }
+
+        .get-in-touch-button-container {
+            grid-area: 4 / 1 / 4 / 5;
+            color: white;
+            z-index: 1;
+            border-radius: 50% 50% 0 0;
+            border: 40px solid #43506D;
+            background: #43506D;
+        }
+
+        .get-in-touch-button-container>button {
+            margin-inline: 25%
+        }
+
+    }
+
+    .golden-color {
+        color: #BF965E;
+    }
+
+    .fw-300-fs-18px {
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+    h2 {
+        font-weight: 400;
+    }
+
+    .display-flex {
+        display: flex;
+    }
+
+    .align-content-center {
+        align-content: center;
+    }
+
+    .color-white {
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-page-content-component-wrapper-container {
+        .main-page-content-component-container {
+            .image-container {
+                .img-m-container {}
+
+                .content-container {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    color: white;
+                    margin-inline: 0px;
+                    width: fit-content;
+                }
+
+                .enquire-now-button-container {
+                    min-width: 100%;
+                    transform: rotate(0deg);
+
+                    .button-container {
+                        min-width: 100%;
+                        transform: rotate(0deg);
+
+                        .button-original-container {
+                            transform: rotate(0deg);
+                        }
+                    }
+                }
+            }
+
+            .running-towards-sustainability-wrapper-container {
+                .running-towards-sustainability-container {
+                    flex-wrap: wrap;
+                }
+            }
+
+            .about-us-wrapper-container {
+                flex-wrap: wrap;
+
+                .about-us-container {
+                    height: 100%;
+                    width: 100%;
+                    padding-inline: 1em;
+                    margin-top: 0;
+                }
+
+                .about-us-images-wrapper-container {
+                    // position: relative;
+                    background: #323A5F;
+                    min-height: 100%;
+                    width: 100%;
+
+                    .about-us-images-container {
+                        height: 100%;
+                        width: 100%;
+                        position: relative;
+                    }
+
+                    .about-us-images-container>img {
+                        max-width: 100%;
+                    }
+                }
+
+            }
+
+            .professional-details-with-numberes-wrapper-container {
+                .professional-details-with-numberes-container {
+                    text-align: center;
+                }
+            }
+        }
+
+
+        .mixers-type-container {
+            flex-wrap: wrap;
+        }
+    }
+}

@@ -1,0 +1,88 @@
+<div class="services-wrapper-container">
+    <form [formGroup]="formGroup">
+        <div class="services-container">
+            <div class="services-first-container">
+                <div class="services-heading-container">
+                    <h1>Services</h1>
+                </div>
+            </div>
+            <div class="providing-specialized-cement-wrapper-container">
+
+                <div class="providing-specialized-cement-container">
+                    <h4>
+                        Providing specialized cement mixtures designed to meet unique application needs, maximizing
+                        performance and efficiency for your construction projects
+                    </h4>
+                </div>
+            </div>
+            <div class="services-dynamic-component-wrapper-container">
+
+                <div class="nav-items-container display-flex-jc-sa">
+                    <ng-container>
+                        <div class="nav-buttons-container" *ngFor="let item of serviceNavItems">
+                            <button type="button" (click)="servicesNavItemClickHandler(item)"
+                                [ngClass]="{'active':item.route===currentActiveItem}">
+                                {{item.label}}
+                            </button>
+                        </div>
+                    </ng-container>
+                </div>
+                <div class="services-dynamic-wrapper-container">
+                    <app-services-dynamic [detailsToLoad]="currentDetails"></app-services-dynamic>
+                </div>
+            </div>
+            <div class="what-is-rmc-services-container">
+                <app-what-is-rmc></app-what-is-rmc>
+            </div>
+            <div class="contact-us-form-of-services-page-wrapper-container">
+
+                <div class="contact-us-form-of-services-page-container">
+                    <div class="enquire-now-container text-align-center">
+                        <p>Enquire Now</p>
+                    </div>
+                    <div class="enquire-now-text-container">
+                        <h1>
+                            Ready to start your project? Contact us today for a free quote on our high-quality concrete
+                            and
+                            cement solutions.
+                        </h1>
+                    </div>
+                    <div class="expert-team-description-container">
+                        <h6>
+                            Our expert team is here to help you with tailored advice and fast, reliable service. Fill
+                            out
+                            the form below, and let's build something great together!
+                        </h6>
+                    </div>
+                    <div class="details-input-container">
+                        <div class="first-two-details-container">
+                            <div class="services-email-container">
+                                <input type="text" formControlName="email" placeholder="Email">
+                            </div>
+                            <div class="services-name-container">
+                                <input type="text" formControlName="name" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="next-two-details-container">
+                            <div class="services-phone-number-container">
+                                <input type="text" formControlName="phone" placeholder="Phone Number">
+                            </div>
+                            <div class="select-project-container">
+                                <select placeholder="Select Project"></select>
+                            </div>
+                        </div>
+                        <div class="message-container">
+                            <div class="text-area-container">
+                                <textarea placeholder="Message" formControlName="message"></textarea>
+                            </div>
+                        </div>
+                        <div class="submit-button-container">
+                            <button type="button" (click)="submitButtonClickHandler()">Submit Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</div>

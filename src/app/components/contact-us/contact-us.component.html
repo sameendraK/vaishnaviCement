@@ -1,0 +1,82 @@
+<div class="contact-us-wrapper-container">
+    <form [formGroup]="formGroup">
+        <div class="contact-us-container">
+            <div class="contact-us-heading-container">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="contact-us-form-wrapper-container display-flex">
+                <div class="contact-us-form-container display-flex text-align-center">
+                    <div class="contact-us-form width-100">
+                        <div class="get-in-touch-container">
+                            <h1>
+                                Get In touch with us
+                            </h1>
+                        </div>
+                        <div class="form-and-message-container">
+                            <div class="image-container">
+
+                            </div>
+                            <div class="form-message-container">
+                                <p>
+                                    Hi,we are
+                                </p>
+                            </div>
+                        </div>
+                        <div class="name-container styling-for-input-fields">
+                            <label>Name</label>
+                            <input type="text" placeholder="Name" name="name" formControlName="name">
+                        </div>
+                        <div class="email-container styling-for-input-fields">
+                            <label>Email</label>
+                            <input type="text" placeholder="email" name="email" formControlName="email">
+                        </div>
+                        <div class="phone-container styling-for-input-fields">
+                            <label>Phone</label>
+                            <input type="text" placeholder="phone" name="phone" formControlName="phone">
+                        </div>
+                        <div class="message-container styling-for-input-fields textarea-height">
+                            <label>Message</label>
+                            <textarea placeholder="Type your query here..." formControlName="message"
+                                name="message"></textarea>
+                        </div>
+                        <div class="send-message-button-container styling-for-input-fields">
+                            <button type="button" (click)="submitButtonClickHandler()">
+                                Send my message
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="location-container">
+                    <a href="https://g.co/kgs/QpxyEuq" target="_blank">
+                        <img src="../../../assets/location.png">
+                    </a>
+                </div>
+            </div>
+            <div class="lets-talk-with-us-container">
+                <div class="lets-talk-with-us">
+                    <h1>
+                        Let's talk with us
+                    </h1>
+                    <p>
+                        Questions,comments,or suggestions? Simply fill in the form and we'll be in touch shortly.
+                    </p>
+                    <div class="location-container">
+                        <p>Plot No. #12-1-520,First Floor & Second Floor
+
+                            GSI Road,Bandlaguda, Nagole
+
+                            Hyderabad - 500068</p>
+                    </div>
+                    <div class="phone-container">
+                        <p>+91 9898989855 </p>
+                    </div>
+                    <div class="email-container">
+                        <p>
+                            {{email}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

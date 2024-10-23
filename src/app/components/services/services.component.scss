@@ -1,0 +1,199 @@
+.services-wrapper-container {
+    .services-container {
+
+        .services-first-container {
+            background-image: url(../../../assets/services_bg_img.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+
+            .services-heading-container>h1 {
+                padding: 8rem;
+                color: white;
+                font-weight: 400;
+            }
+        }
+
+        .providing-specialized-cement-wrapper-container {
+            .providing-specialized-cement-container {
+                padding-inline: 20rem;
+            }
+        }
+
+        .services-dynamic-component-wrapper-container {
+            margin-inline: 3rem;
+
+            .nav-items-container {
+                height: 2rem;
+                background-color: #243355;
+                border-radius: 5px;
+
+                .nav-buttons-container {
+                    align-content: center;
+                }
+
+                .nav-buttons-container>button {
+                    background-color: transparent;
+                    border: 0;
+                    color: white;
+                }
+            }
+
+            .services-dynamic-wrapper-container {
+                margin-top: 1rem;
+            }
+
+        }
+
+        .contact-us-form-of-services-page-wrapper-container {
+            background-color: #FFFBF6;
+            min-width: 100%;
+            display: flex;
+            flex-direction: column;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+
+            .contact-us-form-of-services-page-container {
+                background-color: white;
+                // padding: 5rem;
+                grid-area: 1/3/6/9;
+                margin: 7%;
+                padding: 3rem;
+
+                .enquire-now-container {}
+
+                .enquire-now-text-container>h1 {
+                    text-align: centerf;
+                    // font-size: 24px;
+                }
+
+                .expert-team-description-container {}
+
+                .details-input-container {
+                    text-align: center;
+
+                    .first-two-details-container {
+                        display: flex;
+                        justify-content: center;
+                        gap: 2rem;
+
+                        .services-email-container>input {
+                            height: 2rem;
+                            width: 14rem;
+                        }
+
+                        .services-name-container>input {
+                            height: 2rem;
+                            width: 14rem;
+                        }
+                    }
+
+
+                    .next-two-details-container {
+                        display: flex;
+                        justify-content: center;
+                        gap: 4rem;
+                        margin: 1rem;
+
+                        .services-phone-number-container>input {
+                            height: 2rem;
+                            width: 14rem;
+                        }
+
+                        .select-project-container>select {
+                            height: 2rem;
+                            width: 14rem;
+                        }
+                    }
+
+                    .next-two-details-container>input {}
+
+                    .next-two-details-container>select {
+                        height: 2.5rem;
+                        width: 14.3rem;
+                    }
+
+                    .submit-button-container>button {
+                        width: 251px;
+                        height: 50px;
+                        background-color: #BF965E;
+                        border: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.active {
+    // color: rgb(195, 41, 41);
+    font-size: 2rem;
+    color: #FDA326;
+    border-bottom: solid 2px #FDA326;
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .services-wrapper-container {
+        .services-container {
+
+            .services-first-container {}
+
+            .providing-specialized-cement-wrapper-container {
+                .providing-specialized-cement-container {
+                    padding-inline: 0;
+                    padding: 0;
+                }
+            }
+
+            .services-dynamic-component-wrapper-container {
+                .nav-items-container {
+                    overflow: scroll;
+
+                    .nav-buttons-container {}
+                }
+
+                .services-dynamic-wrapper-container {}
+            }
+
+            .contact-us-form-of-services-page-wrapper-container {
+                .contact-us-form-of-services-page-container {
+                    padding: 1.5rem;
+
+                    .enquire-now-container {}
+
+                    .enquire-now-text-container>h1 {}
+
+                    .expert-team-description-container {}
+
+                    .details-input-container {
+                        .first-two-details-container {
+                            display: flex;
+                            flex-direction: column;
+                        }
+
+                        .next-two-details-container {
+                            display: flex;
+                            flex-direction: column;
+                        }
+
+
+                        .first-two-details-container {}
+
+                        .next-two-details-container {}
+
+                        .first-two-details-container>input {}
+
+                        .next-two-details-container>input {}
+                    }
+                }
+            }
+        }
+    }
+
+    select {
+        height: 2.5rem;
+        width: 14.3rem;
+    }
+}

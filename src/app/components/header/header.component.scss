@@ -1,0 +1,54 @@
+.header-component-wrapper-container {
+    .header-component-container {
+        .image-container {}
+
+        .buttons-container {
+            // width: 50%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .item-container {
+                .nav-item {
+                    color: #838383;
+                    font-size: 13px;
+
+                }
+
+
+                .download-button-container {
+                    // width: 220px;
+                    // height: 45px;
+                    background: #F85200;
+                    border-radius: 165px;
+                    border: transparent;
+                }
+            }
+
+            .active {
+                border-bottom: solid 2px #DC3E3D;
+                // font-size: 40px;
+            }
+
+            .item-container>button {
+                background-color: transparent;
+                border: none;
+                color: white;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .header-component-wrapper-container {
+        .header-component-container {
+            flex-direction: column;
+            .image-container {
+                text-align: center;
+            }
+
+            .buttons-container {}
+        }
+    }
+}

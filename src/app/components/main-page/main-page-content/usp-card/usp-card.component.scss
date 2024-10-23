@@ -1,0 +1,87 @@
+:host {
+    display: flex;
+    // flex-wrap: wrap;
+
+    .usp-card-wrapper-container {
+        // border-radius: 210px;
+        background: white;
+        margin-inline: 13px;
+        text-align: center;
+
+        .usp-card-container {
+            // height: 550px;
+            // position: relative;
+
+            .image-container {
+                height: 40%;
+            }
+
+            .heading-container {
+                height: 18%;
+            }
+
+            .image-container>img {
+                max-width: 100%;
+                // height: 175px;
+                // padding-top: 30px;
+            }
+
+            .heading-container>h1 {
+                margin: 0;
+                // font-size: 39px;
+                font-weight: 400;
+            }
+
+            .description-container {
+                height: 27%;
+            }
+
+            .link-wrapper-container {
+                display: flex;
+                justify-content: center;
+
+                .link-styling-container {
+                    // height: 60px;
+                    // width: 70px;
+                    background-color: black;
+                    // border-radius: 20px;
+
+                    .link-container>button {
+                        // background-image: ;
+                        // height: 60px;
+                        // width: 70px;
+                        background-color: transparent;
+                        cursor: pointer;
+                        // border-radius: 20px;
+
+                    }
+
+                    .link-container {
+                        // background-image: ;
+                        // height: 60px;
+                        // width: 70px;
+                        background-image: url("../../../../../assets/Arrow.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }
+            }
+
+        }
+    }
+
+    // .arrow {
+    //     background-repeat: no-repeat;
+    //     height: 100%;
+    //     width: 100%;
+    // }
+
+    .arrow>button {
+        background-color: transparent;
+    }
+
+    // .arrow ::after {
+    //     content: '';
+    //     background-image: url("../../../../../assets/Arrow.png");
+    // }
+}
