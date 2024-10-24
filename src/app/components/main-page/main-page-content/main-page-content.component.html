@@ -19,11 +19,16 @@
                 </div>
             </div>
             <div class="enquire-now-button-container">
-                <div class="button-container">
+                <div class="button-container min-height-50 display-flex">
                     <div class="button-original-container">
                         <button type="button" (click)="enquireNowButtonClickHandler()">
                             Enquire Now
                         </button>
+                    </div>
+                </div>
+                <div class="whatsapp-button-container">
+                    <div class="whatsapp-button">
+                        <a href="https://wa.me/9494356350">Whatsapp</a>
                     </div>
                 </div>
             </div>
@@ -178,7 +183,7 @@
                 <div class="our-vehicles-images display-flex">
                     <ng-container *ngFor="let image of ourVehiclesImages">
                         <div class="our-vehicles-image-container display-flex">
-                            <img class="width-100" [src]=image.path>
+                            <img class="max-width-100" [src]=image.path>
                         </div>
                     </ng-container>
                 </div>

@@ -9,7 +9,7 @@ export class DataService {
 
   premiereMix: any[] = [
     {
-      path: '../../assets/m10-grade.png',
+      path: '../assets/m10-grade.png',
       heading: 'M10-GRADE',
       mixRatioDescription: 'Mix ratio: 1:3:6 (1 cement, 3 sand and 6 aggregate)',
       sustainabilityDescription: 'Suitability: Used as PCC (Plain Cement Concrete) in the construction of levelling course, bedding for footing, concrete roads, etc.'
